@@ -237,7 +237,7 @@ async def batch_link(_, message):
         return
 
     # Start batch UI
-    join_btn = InlineKeyboardButton("Join Channel", url=f"{c_url}")
+    join_btn = InlineKeyboardButton("Join Channel", url=f"{https://t.me/Bhardwaj1434}")
     keyboard = InlineKeyboardMarkup([[join_btn]])
     pin_msg = await app.send_message(
         user_id,
